@@ -17,46 +17,15 @@ proposed by technological theorists fearful of
 artificial intelligence run rampant.
 '''
 
-
-# In[2]:
-
-
 blob = TextBlob(text)
-
-
-# In[3]:
-
-
 blob.tags  
-
-
-# In[4]:
-
-
 blob.noun_phrases 
-
-
-# In[5]:
-
 
 for sentence in blob.sentences:
     print(sentence.sentiment.polarity)
 
-
-# In[18]:
-
-
 testimonial = TextBlob("Textblob is worst to use")
-
-
-# In[19]:
-
-
 testimonial.sentiment
-
-
-# In[ ]:
-
 
 
 
